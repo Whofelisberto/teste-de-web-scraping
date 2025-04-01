@@ -6,7 +6,7 @@ import time
 ## abrindo o site no navegador webdriver
 navegador = webdriver.Chrome()
 navegador.get('https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos')
-time.sleep(5)
+time.sleep(1)
 
 ## variáveis que usei para colocar na função
 url1 = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos/Anexo_I_Rol_2021RN_465.2021_RN627L.2024.pdf"
